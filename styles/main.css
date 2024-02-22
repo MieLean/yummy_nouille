@@ -2,6 +2,8 @@
 
 @import 'modules/appBar.css'; /*Permet de lier les fichiers dans "modules"*/
 @import 'pages/home.css';
+@import 'pages/menu.css';
+@import 'pages/contact.css';
 @import 'modules/cta.css';
 @import 'modules/banner.css';
 @import 'modules/footer.css';
