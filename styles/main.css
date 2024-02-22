@@ -4,6 +4,8 @@
 @import 'pages/home.css';
 @import 'modules/cta.css';
 @import 'modules/banner.css';
+@import 'modules/footer.css';
+@import 'modules/contact.css';
 
 :root { /*Design System = ce qui va rendre commun*/
     /*palette de couleur*/
