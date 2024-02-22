@@ -79,3 +79,19 @@ h2{
 (=Un module est un bloc standardisé qui peut être utilisé à plusieurs endroits et dans plusieurs contextes. 
 En général, les codes que je copie/colle d'une page à l'autre : cta, header, footer, contact)
 -> VOIR appBAR.css*/
+
+/*MEDIA QUERIES toujours à la fin pour écraser les anciennes règles*/
+@media (max-width: 768px){
+    :root {
+        /* Mobile Variables */
+        --body-font-size: 1rem;
+        --body-highlight-font-size: 1rem;
+        --header-font-size: 2.5rem;
+        --title-font-size: 1.25rem;
+    
+        --body-line-height: 1.25rem;
+        --body-highlight-line-height: 1.25rem;
+        --header-line-height: 3rem;
+        --title-line-height: 1.5rem;
+      }
+}
