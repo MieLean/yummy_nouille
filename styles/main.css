@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap'); /*Permet de lier des polices*/
+
 @import 'modules/appBar.css'; /*Permet de lier les fichiers dans "modules"*/
 @import 'pages/home.css';
+@import 'modules/cta.css';
+@import 'modules/banner.css';
 
 :root { /*Design System = ce qui va rendre commun*/
     /*palette de couleur*/
