@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap'); /*Permet de lier des polices*/
 @import 'modules/appBar.css'; /*Permet de lier les fichiers dans "modules"*/
+@import 'pages/home.css';
 
 :root { /*Design System = ce qui va rendre commun*/
     /*palette de couleur*/
@@ -61,6 +62,10 @@ h2{
     text-underline-offset: 0.25rem; /*écart entre texte et soulignement / zoomer proche de la maquette et compter le nombre de carreaux. 
     Ce sont les pixels. Reste à convertir en REM.*/
     text-decoration-thickness: 0.188rem; /*épaisseur du soulignement*/
+}
+
+.color-highlight {
+    color: var(--red-highlight);
 }
 
 /*Ca y est ! Les règles générales sont appliquées (le Design System), maintenant on s'attaque aux modules ! 
