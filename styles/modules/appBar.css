@@ -1,0 +1,9 @@
+.appBar { /*Ne pas oublier de nommer le header class="appBar" sur toutes les pages ET DE LIEN AVEC @ SUR MAIN.CSS*/
+    display: flex;
+    flex-direction: row;
+}
+
+.appBar_icon{
+    width: 4.5rem;
+    height: 4.5rem;
+}
